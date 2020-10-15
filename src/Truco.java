@@ -32,7 +32,8 @@ public class Truco {
     }
 
     public void printTable() {
-        System.out.printf("Jogador 1: %s%27s\tJogador2: %s\n",
-                player1, turnedCard, player2);
+        System.out.println("Carta Virada: " + turnedCard);
+        System.out.println("Jogador 1: " + player1);
+        System.out.println("Jogador 2: " + player2);
     }
 }
